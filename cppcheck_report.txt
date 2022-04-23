@@ -1,0 +1,11 @@
+games/rock_paper_scissors.cpp:15:13: style: The scope of the variable 'number' can be reduced. [variableScope]
+  int n, i, number;
+            ^
+main.cpp:23:12: style: Variable 'game' is assigned a value that is never used. [unreadVariable]
+      game = guessNumber();
+           ^
+main.cpp:26:12: style: Variable 'game' is assigned a value that is never used. [unreadVariable]
+      game = rockPaperScissors();
+           ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
