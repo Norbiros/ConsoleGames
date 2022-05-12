@@ -1,6 +1,8 @@
 #include <iostream>
 #include "games/guess_number.cpp"
 #include "games/rock_paper_scissors.cpp"
+#include "games/what_is_this.cpp"
+
 using namespace std;
 
 // To export: g++ -o main main.cpp
@@ -12,18 +14,21 @@ int main() {
   cout << "\nList gier:" << endl;
   cout << "1. Zgadnij liczbę" << endl;
   cout << "2. Papier, kamień, nożyce" << endl;
+  cout << "3. Co to jest?" << endl;
   cout << "\nNapisz id gry, aby rozpocząć zabawę!" << endl;
   
   cin >> currentGame;
   cout << "Ładowanie gry " << currentGame << "..." << endl;
 
-  int game;
   switch(currentGame) {
     case 1:
-      game = guessNumber();
+      guessNumber();
       break;
     case 2:
-      game = rockPaperScissors();
+      rockPaperScissors();
+      break;
+    case 3:
+      whatIsThis();
       break;
     default:
       cout << "Niestety gra " << currentGame << " nie istnieje!" << endl;

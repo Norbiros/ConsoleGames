@@ -24,7 +24,7 @@ int guessNumber() {
     }
   }
   if(i == 5) {
-    cout<<"\n\nNiestety nie udało Ci się znaleźć odpowiedniej liczby ( " << number << " )!";
+    cout<<"\n\nNiestety nie udało Ci się znaleźć odpowiedniej liczby ( " << number << " )!" << endl;
   }
   return 0;
 }
