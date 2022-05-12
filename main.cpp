@@ -2,6 +2,7 @@
 #include "games/guess_number.cpp"
 #include "games/rock_paper_scissors.cpp"
 #include "games/what_is_this.cpp"
+#include "include/rapidjson/document.h"
 
 using namespace std;
 

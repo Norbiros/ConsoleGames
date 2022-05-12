@@ -1,28 +1,10 @@
 {
-  "questions": [
-    {
-      "question": "Jest żółte, wysoko na niebie. Daje nam ciepło i światło.",
-      "answer": "słońce",
-    },
-    {
-      "question": "Jest zielone i szumi przy wietrze.",
-      "answer": "drzewo",
-    },
-    {
-      "question": "Molecule Man",
-      "answer": 29,
-    },
-    {
-      "question": "Molecule Man",
-      "answer": 29,
-    },
-    {
-      "question": "Molecule Man",
-      "answer": 29,
-    },
-    {
-      "question": "Molecule Man",
-      "answer": 29,
-    },
-  ]
+    "hello": "world",
+    "t": true ,
+    "f": false,
+    "n": null,
+    "i": 123,
+    "pi": 3.1416,
+    "a": [1, 2, 3, 4]
 }
+
