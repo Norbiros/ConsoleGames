@@ -21,18 +21,24 @@ int main() {
   cin >> currentGame;
   cout << "Ładowanie gry " << currentGame << "..." << endl;
 
+  int game;
   switch(currentGame) {
     case 1:
-      guessNumber();
+      game = guessNumber();
       break;
     case 2:
-      rockPaperScissors();
+      game = rockPaperScissors();
       break;
     case 3:
-      whatIsThis();
+      game = whatIsThis();
       break;
     default:
       cout << "Niestety gra " << currentGame << " nie istnieje!" << endl;
+      game = 0;
+  }
+  
+  if (game != 0) {
+    cout << "W trakcie wykonywania kodu wystąpił błąd! Proszę się skontaktować z developerem, aby go naprawić!" << endl;
   }
   return 0;
-} 
+}

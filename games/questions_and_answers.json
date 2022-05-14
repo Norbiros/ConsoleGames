@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "question": "Jest żółte, wysoko na niebie. Daje nam ciepło i światło.",
+      "answer": "słońce"
+    },
+    {
+      "question": "Jest zielone i szumi przy wietrze.",
+      "answer": "drzewo"
+    },
+    {
+      "question": "Jest niebieskie, ma długi nos i pije wodę.",
+      "answer": "słoń"
+    },
+    {
+      "question": "Uczniowie jej nie lubią. Jest przedmiotem ścisłym. Króluje nad innymi przedmiotami.",
+      "answer": "matematyka"
+    },
+    {
+      "question": "Jest jak prawa ręka, ale jest kwadratowe. Może wyświetlać co chcesz.",
+      "answer": "telefon"
+    },
+    {
+      "question": "Jak to dostaniesz, to już nigdy nie utracisz.",
+      "answer": "wiedza"
+    },
+    {
+      "question": "Jest instrumentem szarpanym strunowym. Bardzo popularna.",
+      "answer": "gitara"
+    },
+    {
+      "question": "Uczniowie zdają to, aby móc jeździć na rowerze.",
+      "answer": "karta rowerowa"
+    },
+    {
+      "question": "Jest to smaczny, czerwony i okrągły owoc.",
+      "answer": "jabłko"
+    },
+    {
+      "question": "Na tym się pisze, rysuje, maluje i drukuje.",
+      "answer": "papier"
+    },
+    {
+      "question": "Gra polegająca na układanie figur jak pionek i królowa na specjalnej planszy.",
+      "answer": "szachy"
+    }
+  ]
+}
+
