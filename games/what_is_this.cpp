@@ -15,7 +15,7 @@ int whatIsThis() {
   list<int> answeredQuestions = list<int>();
 
   int number, i;
-  int points = 1;
+  int points = 0;
   
   srand(time(0));
   int Seed = rand();
@@ -46,17 +46,17 @@ int whatIsThis() {
       cout << "Co to jest? " << questions[number]["question"].GetString() << endl;
       answeredQuestions.push_back(number);
       string s;
-      cin >> s;
+      getline(cin, s);
       if (s == questions[number]["answer"].GetString()) {
         cout << "\x1B[32mDobra odpowiedź!\033[0m\t\t" << endl;
-        points =+ 1;
+        points = points  + 1;
       } else {
-        cout << "\x1B[31mZła odpowiedź! Prawidłowa to: " << questions[number]["answer"].GetString() << "\033[0m\t\t" << endl;
+        cout << "\x1B[31m" << "Zła odpowiedź! Prawidłowa to: " << questions[number]["answer"].GetString() << "\033[0m\t\t" << endl;
       }
       i++;
     }
   }
-  cout << "\e[1m\x1B[34mGratulacje! Zakończyłeś/aś grę z " << points << "/" << questions.Size() << " punktów!\033[0m\t\t\e[0m" << endl;
+  cout << "\e[1m\x1B[34mGratulacje! Twój wynik to " << points << "/" << questions.Size() << " punktów!\033[0m\t\t\e[0m" << endl;
   
   return 0;
 }

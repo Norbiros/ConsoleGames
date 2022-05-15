@@ -9,7 +9,7 @@ using namespace std;
 // To export: g++ -o main main.cpp
 // To run: ./main
 int main() {
-  int currentGame; 
+  string currentGame; 
   cout << "Witaj w ConsoleGames++!" << endl;
   cout << " - prostych grach w konsoli stworzonych przez Norbiros'a" << endl;
   cout << "\nList gier:" << endl;
@@ -18,11 +18,11 @@ int main() {
   cout << "3. Co to jest?" << endl;
   cout << "\nNapisz id gry, aby rozpocząć zabawę!" << endl;
   
-  cin >> currentGame;
+  getline(cin, currentGame);
   cout << "Ładowanie gry " << currentGame << "..." << endl;
 
   int game;
-  switch(currentGame) {
+  switch(stoi(currentGame)) {
     case 1:
       game = guessNumber();
       break;
@@ -38,7 +38,10 @@ int main() {
   }
   
   if (game != 0) {
-    cout << "W trakcie wykonywania kodu wystąpił błąd! Proszę się skontaktować z developerem, aby go naprawić!" << endl;
-  }
+    cout << "W trakcie wykonywania kodu wystąpił błąd " << game << "! Proszę się skontaktować z developerem, aby go naprawić!" << endl;
+    return 1;
+  } 
+  
+  cout << "\x1B[32mDziękuję za zagranie w ConsoleGames++!\033[0m\t\t" << endl;
   return 0;
 }
