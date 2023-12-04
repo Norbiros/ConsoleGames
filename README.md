@@ -1,11 +1,20 @@
-# ConsoleGames
-Simple C++ games in console. Project for school
+# 🎮 ConsoleGames++
+This is simple C++ project with a collection of console-based games
 
-To build code run:
-```
-g++ -o main main.cpp
-```
-To run code type:
-```
-./main
+## 🏁 Getting Started
+    
+```bash
+# Update submodules (RapidJSON)
+git submodule update --init --recursive
+
+# Create CMake build directory
+mkdir build
+cd build
+
+# Generate CMake files
+cmake ..
+make
+
+# Run
+./console_games
 ```

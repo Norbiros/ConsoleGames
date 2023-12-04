@@ -1,5 +1,5 @@
-#include "../include/rapidjson/filereadstream.h"
-#include "../include/rapidjson/document.h"
+#include "rapidjson/filereadstream.h"
+#include "rapidjson/document.h"
 #include <cstdio>
 #include <list>
 #include <algorithm>

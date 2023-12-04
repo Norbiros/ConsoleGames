@@ -5,7 +5,6 @@
 #include <stdlib.h> 
 #include <time.h>
 #include <list>
-#include <ctype.h>
 
 using namespace std;
 using namespace std::this_thread;
